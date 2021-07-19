@@ -1,0 +1,143 @@
+body{
+  box-sizing: border-box;
+  font-family: calibri;
+  color: rgba(0, 0, 0, 0.637);
+}
+
+main p, h1, h2, h3{
+  padding: 0px 10px;
+}
+
+main{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+/*Header*/
+header{
+background: #66ccff;
+padding: 30px 30px 100px 30px;
+box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.603);
+}
+
+h1{
+  font-size: 60px;
+  float: left;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.945);
+  width: 360px;
+}
+
+nav{
+  float: right;
+  padding-top: 72px;
+  padding-bottom: 0;
+}
+
+/*Middle Bar*/
+.middleBar{
+  width: auto;
+  background: rgba(158, 158, 158, 0.027);
+  height: 1000px;
+}
+
+h2{
+  text-align: center;
+}
+
+/*Left Bar*/
+.leftBar{
+  margin: 0 0;
+  width: 180px;
+  height: 1000px;
+}
+
+.leftBar p{
+  background: white;
+  color: rgba(0, 0, 0, 0.637);
+  padding: 10px 10px;
+  margin: -1px;
+  font-weight: bold;
+}
+
+.leftBar p.current{
+  background: rgb(224, 224, 224);
+}
+
+.profile{
+  width: 150px;
+  margin: 20px auto;
+  display: block;
+}
+
+hr{
+  border-top:1px solid rgb(224, 224, 224);
+  padding: 0;
+  margin: 0;
+}
+
+/*Links that direct to another website*/
+.offsite{
+  text-decoration: none;
+ 
+  border-radius: 15px;
+  padding: 1px;
+}
+
+.offsite:link, .offsite:visited{
+  color: rgba(0, 0, 0, 0.637);
+  padding: 2px;
+}
+
+.offsite:hover{
+  background: #66ccff;  
+  color: rgba(255, 255, 255, 0.952);
+
+}
+
+.offsite:active{
+  background: #a4e1ff;  
+  color: rgba(255, 255, 255, 0.952);
+ 
+}
+
+
+/*Links that direct somewhere on the current page*/
+.onPage, .onPage:link, .onPage:visited{
+  color:rgba(0, 0, 0, 0.671);
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  margin:-2px;
+  background: #66ccff;
+  width: 20px;
+}
+
+.onPage:hover{
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.onPage:active{
+  color: rgba(255, 255, 255, 0.74);
+  background: #59b1dd3d;  
+  box-shadow: -6px -6px 10px 1px rgba(0, 0, 0, 0.021) inset;
+}
+
+/*Lists*/
+ul li{
+  margin: 0;
+  padding: 5px;
+}
+
+ol li{
+  padding: 0px, 10px;
+}
+
+footer{
+  background:#66ccff;
+  padding: 30px 0 5px 30px;
+  color: rgba(255, 255, 255, 0.753);
+}
