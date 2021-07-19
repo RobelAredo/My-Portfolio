@@ -18,7 +18,7 @@ main{
 header{
 background: #66ccff;
 padding: 30px 30px 100px 30px;
-box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.603);
+/*box-shadow: 0 4px 8px 0 rgba(128, 128, 128, 0.603);*/
 }
 
 h1{
@@ -40,7 +40,7 @@ nav{
 /*Middle Bar*/
 .middleBar{
   width: auto;
-  background: rgba(158, 158, 158, 0.027);
+  background: rgba(141, 141, 141, 0.027);
   height: 1000px;
 }
 
@@ -48,11 +48,16 @@ h2{
   text-align: center;
 }
 
+section{
+  border-bottom: solid 1px rgb(241, 241, 241);
+}
+
 /*Left Bar*/
 .leftBar{
   margin: 0 0;
   width: 180px;
   height: 1000px;
+  background: white;
 }
 
 .leftBar p{
